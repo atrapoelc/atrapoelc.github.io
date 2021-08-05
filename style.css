@@ -1,0 +1,126 @@
+body {
+    background-color: #0b1d26;
+    background-image: linear-gradient(to bottom, rgba(196, 196, 196, 0) 7%, rgba(53, 65, 71, 1) 40%), url("window-view-Trinidad.JPG");
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, contain;
+    background-position: center bottom, center top;
+    color: #ffffff;
+    font-family: 'Montserrat', 'Raleway', 'Arial', 'Lucida-Grande', sans-serif;
+    line-height: 1.778;
+    font-weight: 600;
+    font-size: 1.125rem;
+    margin: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul,
+a {
+    color: #fbd784;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', 'Times New Roman', 'Palatino', serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+h1 {
+    line-height: 1.136;
+    font-size: clamp(2.8rem, 1.3182rem + 7.4091vw, 6.875rem);
+}
+
+h1 span {
+    display: inline-block;
+}
+
+h2,
+h3 {
+    line-height: 1.33;
+}
+
+h2 {
+    font-size: clamp(2.1rem, 1.4091rem + 3.4545vw, 4rem);
+}
+
+h3 {
+    font-size: clamp(1.4rem, 1.0455rem + 1.7727vw, 2.375rem);
+}
+
+p,
+ul {
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.overheading {
+    color: #fbd784;
+    font-size: clamp(0.875rem, 0.7841rem + 0.4545vw, 1.125rem);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.333em;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.overheading span {
+    display: inline-block;
+}
+
+.overheading::before {
+    content: "";
+    display: block;
+    width: 4.5rem;
+    height: 2px;
+    background-color:#fbd784;
+    margin-right: 1.5rem; 
+}
+
+.icon {
+    background-color: #fbd784;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+a {
+    padding-left: 1rem;
+}
+
+img.icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header{
+    margin-bottom: 54rem;
+}
+
+.svgbackground {
+    background-image: url("html.svg");
+    
+}
+
+@media only screen and (max-width: 560px) {
+.overheading {
+    border-left: 2px solid #fbd784;
+    display: flex;
+    padding-left: 1rem;
+}
+
+.overheading::before {
+    display: none;
+}   
+}
