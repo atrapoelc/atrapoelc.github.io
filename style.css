@@ -110,17 +110,16 @@ header{
 
 .svgbackground {
     background-image: url("html.svg");
-    
 }
 
 @media only screen and (max-width: 560px) {
-.overheading {
-    border-left: 2px solid #fbd784;
-    display: flex;
-    padding-left: 1rem;
-}
+    .overheading {
+        border-left: 2px solid #fbd784;
+        display: flex;
+        padding-left: 1rem;
+    }
 
-.overheading::before {
-    display: none;
-}   
+    .overheading::before {
+        display: none;
+    }   
 }
