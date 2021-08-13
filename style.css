@@ -1,11 +1,11 @@
 body {
     background-color: #0b1d26;
-    background-image: linear-gradient(to bottom, rgba(196, 196, 196, 0) 7%, rgba(53, 65, 71, 1) 40%), url("window-view-Trinidad.JPG");
+    /*background-image: linear-gradient(to bottom, rgba(196, 196, 196, 0) 7%, rgba(53, 65, 71, 1) 40%), url("window-view-trinidad.jpg");
     background-repeat: no-repeat, no-repeat;
     background-size: contain, contain;
-    background-position: center bottom, center top;
+    background-position: center bottom, center top;*/
     color: #ffffff;
-    font-family: 'Montserrat', 'Raleway', 'Arial', 'Lucida-Grande', sans-serif;
+    font-family: "Montserrat", "Raleway", "Arial", "Lucida-Grande", sans-serif;
     line-height: 1.778;
     font-weight: 600;
     font-size: 1.125rem;
@@ -25,7 +25,7 @@ a {
 h1,
 h2,
 h3 {
-    font-family: 'Playfair Display', 'Times New Roman', 'Palatino', serif;
+    font-family: "Playfair Display", "Times New Roman", "Palatino", serif;
     font-style: normal;
     font-weight: 400;
     margin-top: 0;
@@ -67,30 +67,41 @@ ul {
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.333em;
+    border-left: 2px solid #fbd784;
+    padding-left: 1rem;
     margin-top: 0;
     margin-bottom: 1.5rem;
-    display: flex;
-    align-items: center;
+}
+
+@media only screen and (min-width: 560px) {
+    .overheading {
+        display: flex;
+        align-items: center;
+        border-left: 0;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (min-width: 560px) {
+    .overheading::before {
+        content: "";
+        display: block;
+        width: 4.5rem;
+        height: 2px;
+        background-color: #fbd784;
+        margin-right: 1.5rem;
+    }
 }
 
 .overheading span {
     display: inline-block;
 }
 
-.overheading::before {
-    content: "";
-    display: block;
-    width: 4.5rem;
-    height: 2px;
-    background-color:#fbd784;
-    margin-right: 1.5rem; 
-}
-
 .icon {
     background-color: #fbd784;
 }
 
-ul{
+ul {
     list-style-type: none;
     padding-left: 0;
 }
@@ -104,22 +115,12 @@ img.icon {
     vertical-align: middle;
 }
 
-header{
+header {
     margin-bottom: 54rem;
 }
 
-.svgbackground {
+section:first-child {
     background-image: url("html.svg");
-}
-
-@media only screen and (max-width: 560px) {
-    .overheading {
-        border-left: 2px solid #fbd784;
-        display: flex;
-        padding-left: 1rem;
-    }
-
-    .overheading::before {
-        display: none;
-    }   
+    background-repeat: no-repeat;
+    background-size: contain;
 }
