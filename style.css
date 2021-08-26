@@ -4,6 +4,9 @@ body {
     background-repeat: no-repeat, no-repeat;
     background-size: contain, contain;
     background-position: center bottom, center top;*/
+    /* background-image: url("image.png"); */
+    /* background-position: 50% -152px; */
+    /* background-repeat: no-repeat; */
     color: #ffffff;
     font-family: "Montserrat", "Raleway", "Arial", "Lucida-Grande", sans-serif;
     line-height: 1.778;
@@ -11,6 +14,10 @@ body {
     font-size: 1.125rem;
     margin: 1rem;
 }
+
+/* body > * { */
+/* mix-blend-mode: difference; */
+/* } */
 
 img {
     max-width: 100%;
@@ -59,6 +66,11 @@ ul {
     font-style: normal;
     margin-top: 0;
     margin-bottom: 2rem;
+    line-height: 1.5556;
+}
+
+.intro {
+    max-width: 26.25rem;
 }
 
 .overheading {
@@ -70,7 +82,8 @@ ul {
     border-left: 2px solid #fbd784;
     padding-left: 1rem;
     margin-top: 0;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.25rem;
+    line-height: 1.778;
 }
 
 @media only screen and (min-width: 560px) {
@@ -89,7 +102,7 @@ ul {
         width: 4.5rem;
         height: 2px;
         background-color: #fbd784;
-        margin-right: 1.5rem;
+        margin-right: 2rem;
     }
 }
 
