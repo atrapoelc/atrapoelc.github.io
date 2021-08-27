@@ -5,7 +5,7 @@ body {
     background-size: contain, contain;
     background-position: center bottom, center top;*/
     /* background-image: url("image.png"); */
-    /* background-position: 50% -152px; */
+    /* background-position: -344px 276px; */
     /* background-repeat: no-repeat; */
     color: #ffffff;
     font-family: "Montserrat", "Raleway", "Arial", "Lucida-Grande", sans-serif;
@@ -66,7 +66,7 @@ ul {
     font-style: normal;
     margin-top: 0;
     margin-bottom: 2rem;
-    line-height: 1.5556;
+    max-width: 36rem;
 }
 
 .intro {
