@@ -87,21 +87,6 @@ ul {
     line-height: 1.778;
 }
 
-article {
-    margin-top: 3rem;
-}
-
-.project-details {
-    display: flex;
-    max-width: 65rem;
-    gap: 3rem;
-}
-
-.project-details-even {
-    flex-direction: row-reverse;
-}
-
-}
 @media only screen and (min-width: 560px) {
     .overheading {
         display: flex;
@@ -148,4 +133,30 @@ section:first-child {
     background-image: url("html.svg");
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.project {
+    margin-top: 3rem;
+}
+
+.project-image {
+    margin-bottom: 0.75rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .project-image {
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .project-details {
+        display: flex;
+        max-width: 65rem;
+        gap: 3rem;
+    }
+}
+
+.project-details-even {
+    flex-direction: row-reverse;
 }
