@@ -160,3 +160,7 @@ section:first-child {
 .project-details-even {
     flex-direction: row-reverse;
 }
+
+.nonproject-skills {
+    margin-top: 1rem;
+}
