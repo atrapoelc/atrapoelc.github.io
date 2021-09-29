@@ -129,11 +129,11 @@ header {
     margin-bottom: 54rem;
 }
 
-section:first-child {
+/* section:first-child {
     background-image: url("html.svg");
     background-repeat: no-repeat;
     background-size: contain;
-}
+} */
 
 .project {
     margin-top: 3rem;
@@ -163,4 +163,22 @@ section:first-child {
 
 .nonproject-skills {
     margin-top: 1rem;
+}
+
+.knowledge section {
+    flex-basis: 50%;
+    margin-top: 1.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .knowledge {
+        display: flex;
+        margin-top: 1rem;
+    }
+    .courses {
+        margin-left: 1.5rem;
+    }
+
+li {
+    color: #ffffff;
 }
