@@ -161,10 +161,6 @@ header {
     flex-direction: row-reverse;
 }
 
-.nonproject-skills {
-    margin-top: 1rem;
-}
-
 .knowledge section {
     flex-basis: 50%;
     margin-top: 1.5rem;
