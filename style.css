@@ -170,3 +170,7 @@ header {
 li {
     color: #ffffff;
 }
+
+.footer {
+    background: linear-gradient (#00000040);
+}
