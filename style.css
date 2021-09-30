@@ -111,18 +111,9 @@ ul {
     display: inline-block;
 }
 
-.icon {
-    background-color: #fbd784;
-}
-
 ul {
     list-style-type: none;
     padding-left: 0;
-}
-
-img.icon {
-    display: inline-block;
-    vertical-align: middle;
 }
 
 header {
